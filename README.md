@@ -28,10 +28,7 @@ pip install -r requirements.txt
 
 Database Setup
 Run Migrations
-flask db init
-flask db migrate -m "initial migration"
-flask db upgrade
-
+Setup Database
 Seed the Database
 python seed.py
 
